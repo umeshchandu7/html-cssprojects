@@ -1,0 +1,134 @@
+
+*{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.input-data > h2 {
+    margin-top: 100px;
+}
+.container3
+{
+    
+  display: flex;
+  flex-direction: column;
+  gap : 20px;
+}
+
+.container1{
+    align-items: center;
+    border: solid 1px ;
+    padding-right : 30px;
+    padding-top : 10px;
+    text-align: center;
+    margin: 15px;
+}
+.item4{
+    display: flex;
+    
+}
+.item2{
+    max-width: 20vw;
+    width: 100%;
+}
+.item1{
+    max-width: 80vw;
+    width: 100%;
+}
+.container2
+{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    align-items: center;
+    margin-left: 500px;
+    max-width: 750px;
+    margin-top: 75px;
+    
+}
+
+.navlink{
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    padding-right: 50px;
+    justify-content: space-around;
+}
+li{
+    list-style-type: none;
+    
+    
+}img{
+    max-width: 600px;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+
+}
+footer{
+    background-color: #ddd;
+    padding: 20px;
+    font-size: 1.3em;
+}
+footer > p{
+    display: flex;
+    justify-content: flex-end;
+}
+footer > ul{
+    display: flex;
+    justify-content: flex-end;
+
+}
+footer > ul > li{
+    margin: 0 20px;
+}
+.set{
+    margin-left:20px;
+    background-color: #eee;
+    
+}
+.set > h2 {
+    text-align: right;
+}
+body{
+    align-items: center;
+}
+#submit{
+    margin-left: 35px;
+    margin-top : 15px;
+}
+.button{
+    background-color: yellow;
+    border: none;
+    margin-bottom: 5px;
+    margin-left: 30px;
+}
+header{
+    position: fixed;
+    max-width:100vw ;
+    width : 100%;
+    display: flex;
+    gap: 650px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 40px 10px 20px;
+    background-color: white;
+}
+iframe{
+    max-width: 500px;
+    width: 100%;
+}
